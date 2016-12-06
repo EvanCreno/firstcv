@@ -13,6 +13,12 @@ import org.bytedeco.javacv.FrameRecorder;
 import org.bytedeco.javacv.OpenCVFrameConverter;
 import org.bytedeco.javacv.OpenCVFrameGrabber;
 
+/**
+ * 开启摄像头捕捉，并转换成flv封装格式，推流
+ * 
+ * @author jiekechoo
+ *
+ */
 public class RecordCamera {
 
 	public static void recordCamera(String outputFile, double frameRate)
