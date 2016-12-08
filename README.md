@@ -3,6 +3,10 @@
 
 ## 使用nginx-rtmp作为推流服务器
 
+### 配置nginx-rtmp功能
+
+	将 /src/main/resources/nginx.conf 导入nginx配置文件，重新启动nginx即可启动rtmp推流服务器
+
 ### 推流
 
 1. flv 推流，flash播放
