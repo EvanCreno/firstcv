@@ -69,16 +69,16 @@ public class RecordCamera {
 	// recordCamera("video.mp4", 25);
 	// }
 
-	// hls流
+//	// hls流
 	public static void main(String[] args)
 			throws Exception, InterruptedException, org.bytedeco.javacv.FrameRecorder.Exception {
 		recordCamera("rtmp://list.sectong.com:1935/hls/osx", 25);
 	}
 
-	// rtmp 流
-	// public static void main(String[] args)
-	// throws Exception, InterruptedException,
-	// org.bytedeco.javacv.FrameRecorder.Exception {
-	// recordCamera("rtmp://list.sectong.com:1935/myapp/osx", 25);
-	// }
+//	rtmp 流
+
+//	public static void main(String[] args)
+//			throws Exception, InterruptedException, org.bytedeco.javacv.FrameRecorder.Exception {
+//		recordCamera("rtmp://list.sectong.com:1935/myapp/osx", 25);
+//	}
 }
